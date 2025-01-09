@@ -1,0 +1,27 @@
+food_id,food_name,food_price
+HB001,Bacon Egg and Cheese Sandwich,4.95
+HB002,Sausage Cheddar and Egg Sandwich,4.95
+HB003,Turkey Bacon and Eggwhite Sandwich,4.95
+HB004,Impossible Sandwich,5.75
+HB005,Breakfast Burrito,6.25
+HB006,Oatmeal,3.75
+BA001,Plain Bagel,2.95
+BA002,Everything Bagel,2.95
+BA003,Brownie,3.65
+BA004,Chocolate Chip Cookie,3.25
+BA005,Butter Croissant,3.95
+BA006,Chocolate Croissant,4.25
+BA007,Ham and Swiss Croissant,4.95
+BA008,Banana Loaf,4.25
+BA009,Pumpkin Loaf,4.25
+BA010,Lemon Loaf,4.25
+BA011,Glazed Doughnut,2.65
+BA012,Powdered Doughnut,2.65
+BA013,Boston Kreme Doughnut,2.65
+BA014,Cheese Danish,3.65
+BA015,Blueberry Muffin,3.95
+BA016,Chocolate Chip Muffin,3.95
+LU001,Grilled Cheese Sandwich,6.95
+LU002,Ham and Swiss Sandwich,7.45
+LU003,Turkey and Provolone Sandwich,7.25
+LU004,Tomato and Mozzarella,7.25

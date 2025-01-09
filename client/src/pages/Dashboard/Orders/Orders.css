@@ -1,0 +1,29 @@
+.your-orders-container {
+    width: 1000px;
+    margin: auto;
+}
+
+.page-title {
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 16px; 
+}
+
+.orders-page-tabs {
+    height: 34px;
+    margin: auto;
+    display: block;
+    box-sizing: border-box;
+    border-bottom: 1px solid lightgray;
+    margin-bottom: 16px;
+}
+
+.orders-page-tabs ul li {
+    display: inline-block;
+    padding: 5px 10px;
+    font-size: 16px;
+}
+
+.orders-page-tabs ul li a {
+    text-decoration: none;
+}

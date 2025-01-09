@@ -1,0 +1,24 @@
+.menu-with-nav {
+    display: flex;
+}
+
+.menu-container {
+    height: 100%;
+    width: 80%;
+    padding: 24px 0px;
+}
+
+.current-page {
+    font-weight: bold;
+}
+
+.menu-container h2 {
+    font-weight: bold;
+    font-size: 28px;
+    padding-bottom: 48px;
+}
+
+.products-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}

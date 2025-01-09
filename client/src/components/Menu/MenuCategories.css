@@ -1,0 +1,30 @@
+.product-categories {
+    height: 100%;
+    width: 20%;
+    padding: 16px 50px;
+}
+
+.product-categories ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.product-categories ul span {
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 24px;
+}
+
+.product-categories ul li {
+    padding: 8px 0;
+}
+
+.product-categories a {
+    text-decoration: none;
+    display: block;
+    color: #232b2b;
+}
+
+.product-categories a:hover {
+    color: black;
+}

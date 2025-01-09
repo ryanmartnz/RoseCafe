@@ -1,0 +1,86 @@
+product_id,product_name,product_base_price
+DHC001,Caffe Americano,3.95
+DHC002,Blonde Roast,2.95
+DHC003,Medium Roast,2.95
+DHC004,Dark Roast,2.95
+DHC005,Decaf Roast,2.95
+DHC006,Caffe Misto,3.65
+DHC007,Cappuccino,4.95
+DHC008,Flat White,5.45
+DHC009,Caffe Latte,4.95
+DHC010,Cinnamon Dolce Latte,5.65
+DHC011,Blonde Vanilla Latte,5.65
+DHC012,Caramel Macchiato,5.45
+DHC013,Caffe Mocha,5.65
+DHC014,White Chocolate Mocha,5.75
+DCC001,Cold Brew,4.95
+DCC002,Vanilla Cream Cold Brew,5.25
+DCC003,Chocolate Cream Cold Brew,5.25
+DCC004,Caramel Cream Cold Brew,5.25
+DCC005,Nitro Cold Brew,5.75
+DCC006,Iced Caffe Americano,3.95
+DCC007,Iced Coffee,3.95
+DCC008,Iced Shaken Espresso,4.45
+DCC009,Iced Brown Sugar Shaken Espresso,5.95
+DCC010,Iced Flat White,5.65
+DCC011,Iced Caffe Latte,5.25
+DCC012,Iced Cinnamon Dolce Latte,5.75
+DCC013,Iced Blonde Vanilla Latte,5.75
+DCC014,Iced Caramel Macchiato,5.65
+DCC015,Iced Caffe Mocha,5.85
+DCC016,Iced White Chocolate Mocha,5.95
+DSP001,Strawberry Sparkler,4.75
+DSP002,Mango Sparkler,4.75
+DSP003,Kiwi Sparkler,4.75
+DSP004,Strawberry Lemonade Sparkler,5.25
+DSP005,Mango Lemonade Sparkler,5.25
+DSP006,Kiwi Lemonade Sparkler,5.25
+DFC001,Vanilla Frozen Coffee,5.75
+DFC002,Chocolate Frozen Coffee,5.75
+DFC003,Caramel Frozen Coffee,5.75
+DHT001,Black Tea,3.75
+DHT002,Green Tea,3.75
+DHT003,White Tea,3.75
+DHT004,Herbal Tea,3.75
+DHT005,Chai Tea Latte,5.45
+DHT006,Matcha Tea Latte,5.45
+DIT001,Iced Black Tea,3.95
+DIT002,Iced Green Tea,3.95
+DIT003,Iced White Tea,3.95
+DIT004,Iced Herbal Tea,3.95
+DIT005,Iced Black Tea Lemonade,4.25
+DIT006,Iced Green Tea Lemonade,4.25
+DIT007,Iced White Tea Lemonade,4.25
+DIT008,Iced Herbal Tea Lemonade,4.25
+DIT009,Iced Chai Tea Latte,5.65
+DIT010,Iced Matcha Tea Latte,5.65
+DMJ001,Hot Chocolate,4.25
+DMJ002,White Hot Chocolate,5.05
+DMJ003,Apple Juice,3.45
+DMJ004,Orange Juice,3.45
+FHB001,Bacon Egg and Cheese Sandwich,4.95
+FHB002,Sausage Cheddar and Egg Sandwich,4.95
+FHB003,Turkey Bacon and Eggwhite Sandwich,4.95
+FHB004,Impossible Sandwich,5.75
+FHB005,Breakfast Burrito,6.25
+FHB006,Oatmeal,3.75
+FBA001,Plain Bagel,2.95
+FBA002,Everything Bagel,2.95
+FBA003,Brownie,3.65
+FBA004,Chocolate Chip Cookie,3.25
+FBA005,Butter Croissant,3.95
+FBA006,Chocolate Croissant,4.25
+FBA007,Ham and Swiss Croissant,4.95
+FBA008,Banana Loaf,4.25
+FBA009,Pumpkin Loaf,4.25
+FBA010,Lemon Loaf,4.25
+FBA011,Glazed Doughnut,2.65
+FBA012,Powdered Doughnut,2.65
+FBA013,Boston Kreme Doughnut,2.65
+FBA014,Cheese Danish,3.65
+FBA015,Blueberry Muffin,3.95
+FBA016,Chocolate Chip Muffin,3.95
+FLU001,Grilled Cheese Sandwich,6.95
+FLU002,Ham and Swiss Sandwich,7.45
+FLU003,Turkey and Provolone Sandwich,7.25
+FLU004,Tomato and Mozzarella Sandwich,7.25

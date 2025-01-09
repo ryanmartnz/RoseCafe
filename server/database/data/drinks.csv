@@ -1,0 +1,60 @@
+drink_id,drink_name,drink_small_price,drink_medium_price,drink_large_price
+HC001,Caffe Americano,3.65,3.95,4.45
+HC002,Blonde Roast,2.65,2.95,3.25
+HC003,Medium Roast,2.65,2.95,3.25
+HC004,Dark Roast,2.65,2.95,3.25
+HC005,Decaf Roast,2.65,2.95,3.25
+HC006,Caffe Misto,3.35,3.65,3.95
+HC007,Cappuccino,4.45,4.95,5.45
+HC008,Flat White,4.95,5.45,5.95
+HC009,Caffe Latte,4.45,4.95,5.45
+HC010,Cinnamon Dolce Latte,5.05,5.65,6.05
+HC011,Blonde Vanilla Latte,5.05,5.65,6.05
+HC012,Caramel Macchiato,4.95,5.45,5.65
+HC013,Caffe Mocha,5.25,5.65,5.95
+HC014,White Chocolate Mocha,5.25,5.75,6.25
+CC001,Cold Brew,4.45,4.95,5.25
+CC002,Vanilla Cream Cold Brew,4.75,5.25,5.45
+CC003,Chocolate Cream Cold Brew,4.75,5.25,5.45
+CC004,Caramel Cream Cold Brew,4.75,5.25,5.45
+CC005,Nitro Cold Brew,5.25,5.75,6.25
+CC006,Iced Caffe Americano,3.65,3.95,4.45
+CC007,Iced Coffee,3.75,3.95,4.75
+CC008,Iced Shaken Espresso,3.95,4.45,4.95
+CC009,Iced Brown Sugar Shaken Espresso,5.45,5.95,6.45
+CC010,Iced Flat White,4.95,5.65,6.25
+CC011,Iced Caffe Latte,4.45,5.25,5.65
+CC012,Iced Cinnamon Dolce Latte,5.25,5.75,6.25
+CC013,Iced Blonde Vanilla Latte,5.25,5.75,6.25
+CC014,Iced Caramel Macchiato,4.95,5.65,5.95
+CC015,Iced Caffe Mocha,5.25,5.85,6.25
+CC016,Iced White Chocolate Mocha,5.45,5.95,6.45
+SP001,Strawberry Sparkler,4.25,4.75,5.25
+SP002,Mango Sparkler,4.25,4.75,5.25
+SP003,Kiwi Sparkler,4.25,4.75,5.25
+SP004,Strawberry Lemonade Sparkler,4.95,5.25,5.75
+SP005,Mango Lemonade Sparkler,4.95,5.25,5.75
+SP006,Kiwi Lemonade Sparkler,4.95,5.25,5.75
+FC001,Vanilla Frozen Coffee,5.45,5.75,6.25
+FC002,Chocolate Frozen Coffee,5.45,5.75,6.25
+FC003,Caramel Frozen Coffee,5.45,5.75,6.25
+HT001,Black Tea,3.25,3.75,3.95
+HT002,Green Tea,3.25,3.75,3.95
+HT003,White Tea,3.25,3.75,3.95
+HT004,Herbal Tea,3.25,3.75,3.95
+HT005,Chai Tea Latte,4.65,5.45,5.65
+HT006,Matcha Tea Latte,4.65,5.45,5.65
+IT001,Iced Black Tea,3.45,3.95,4.25
+IT002,Iced Green Tea,3.45,3.95,4.25
+IT003,Iced White Tea,3.45,3.95,4.25
+IT004,Iced Herbal Tea,3.45,3.95,4.25
+IT005,Iced Black Tea Lemonade,3.95,4.25,4.65
+IT006,Iced Green Tea Lemonade,3.95,4.25,4.65
+IT007,Iced White Tea Lemonade,3.95,4.25,4.65
+IT008,Iced Herbal Tea Lemonade,3.95,4.25,4.65
+IT009,Iced Chai Tea Latte,4.95,5.65,5.95
+IT010,Iced Matcha Tea Latte,4.95,5.65,5.95
+MJ001,Hot Chocolate,3.45,4.25,4.65
+MJ002,White Hot Chocolate,4.25,5.05,5.45
+MJ003,Apple Juice,2.95,3.45,3.95
+MJ004,Orange Juice,2.95,3.45,3.95

@@ -1,0 +1,59 @@
+.dashboard-container {
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.dash-intro {
+    margin: auto;
+    text-align: center;
+}
+
+.dash-greeting {
+    margin: 30px;
+    font-weight: 500;
+    font-size: 40px;
+}
+
+.dash-options-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 1000px;
+    justify-content: space-around;
+    margin: 20px auto;
+}
+
+.dash-option-link {
+    color: black;
+    text-decoration: none;
+    border-radius: 8px;
+    width: 450px;
+    height: 150px;
+    margin-bottom: 20px;
+}
+
+.option-card {
+    padding: 15px;
+    width: 450px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0px 3px 15px var(--pink-shadow);
+    border-radius: 10px;
+    margin: 15px 0;
+    margin-bottom: 20px;
+}
+
+.card-icon {
+    margin: 15px;
+}
+
+.option-card-content {
+    width: 300px;
+}
+
+.option-card-title {
+    font-size: 1.25rem;
+    font-weight: 500;
+}

@@ -1,0 +1,83 @@
+:root {
+  --main-pink-color: #9F2B68;
+  --pink-shadow: rgba(153, 43, 104, 0.2);
+  --header-background-color: #e7a7c9;
+  --card-border-color: #df88b6;
+  --menu-item-background: #f0c6dc;
+}
+
+* {
+  transition: all .2s ease-out;
+}
+
+.dot {
+  background-image: -webkit-repeating-radial-gradient(center center,currentColor,currentColor 1px,#0000 1px,#0000 100%);
+  background-position: 0 75%;
+  background-repeat: repeat-x;
+  background-size: 5px 5px;
+  flex-grow: 1;
+}
+
+.btn-white {
+  font-size: 14px;
+  background-color: #fff;
+  color: black;
+  padding: 4px;
+}
+
+.btn-white:link,
+.btn-white:visited {
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 15px 40px;
+  display: inline-block;
+  border-radius: 100px;
+  transition: all .2s;
+  position: absolute;
+}
+
+.btn-white:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.btn-white:active {
+  transform: translateY(-1px);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.btn-white::after {
+  content: "";
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  border-radius: 100px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  transition: all .4s;
+  background-color: #fff;
+}
+
+.btn-white:hover::after {
+  transform: scaleX(1.4) scaleY(1.6);
+  opacity: 0;
+}
+
+.btn-animated {
+  animation: moveInBottom 5s ease-out;
+  animation-fill-mode: backwards;
+}
+
+@keyframes moveInBottom {
+  0% {
+      opacity: 0;
+      transform: translateY(30px);
+  }
+
+  100% {
+      opacity: 1;
+      transform: translateY(0px);
+  }
+}

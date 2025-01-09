@@ -1,0 +1,14 @@
+.breadcrumbs ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+}
+
+.breadcrumbs ul li {
+    color: #232b2b;
+}
+
+.breadcrumbs ul a {
+    text-decoration: none;
+    color: #232b2b;
+}
