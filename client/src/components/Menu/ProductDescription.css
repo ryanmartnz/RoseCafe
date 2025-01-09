@@ -65,7 +65,7 @@
     margin-bottom: 3px;
 }
 
-.added-to-cart-message {
+.bottom-popup {
     margin-bottom: 0px;
     background-color: var(--main-pink-color);
     color: white;

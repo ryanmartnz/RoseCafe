@@ -61,6 +61,7 @@ const OrderCard = ({ order, orderType }) => {
         if(response.ok) {
             toast.dismiss();
             toast(`Order #${order.order_id} Cancelled`, {
+                className: "bottom-popup",
                 position: "bottom-center",
                 autoClose: 5000,
                 hideProgressBar: true,

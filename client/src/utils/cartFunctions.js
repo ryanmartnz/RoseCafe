@@ -19,7 +19,7 @@ export const addToCart = async (productId, productName, productSize, cartNumChan
         cartNumChange(1);
         toast.dismiss();
         toast(`${productName} Added to Your Cart`, {
-            className: "added-to-cart-message",
+            className: "bottom-popup",
             position: "bottom-center",
             autoClose: 5000,
             hideProgressBar: true,

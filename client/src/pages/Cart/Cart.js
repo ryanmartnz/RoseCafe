@@ -52,15 +52,20 @@ const Cart = ({ cartNumChange, cartSetNum }) => {
         if(cartItems.length === 0) {
             document.getElementById("cart-container").style.display = "none";
             document.getElementById("submit-order-button-container").style.display = "none";
+            document.getElementById("nothing-in-cart").style.display = "block"
         } else {
             document.getElementById("cart-container").style.display = "flex";
             document.getElementById("submit-order-button-container").style.display = "block";
+            document.getElementById("nothing-in-cart").style.display = "none"
         }
     });
 
     return (
         <Fragment>
             <h1>Cart</h1>
+            <div className="nothing-in-cart" id="nothing-in-cart">
+                <p>Nothing to see here!</p>
+            </div>
             <div className="cart-container" id="cart-container">
                 <div className="cart-items-container">
                     {
