@@ -12,16 +12,22 @@ The application backend was created usin Express.js, PostgreSQL, and Node.js.
 
 ## How to Install and Run the Rose Cafe
 1. In a new terminal, navigate to the server directory from the main directory
+   
    ```cd server```
-2. Install the server's dependencies 
+2. Install the server's dependencies
+   
    ```npm install```
 3. Start the server
+
    ```node index```
 4. In a seperate terminal, navigate to the client directory from the main directory
+
    ```cd client```
 5. Install the client's dependencies 
+
    ```npm install```
 6. Start the server
+
    ```npm start```
 
 ## How to Use the Rose Cafe
