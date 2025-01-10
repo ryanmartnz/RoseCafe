@@ -11,7 +11,13 @@ The application frontend was created using JavaScript, React, and HTML/CSS.
 The application backend was created usin Express.js, PostgreSQL, and Node.js.
 
 ## How to Install and Run the Rose Cafe
- - 
+1. Begin by navigating to the server directory.
+   ```cd server```
+2. Then, install the dependencies
+   ```npm install```
+3. Run the server
+   ```node index```
+4. 
 
 ## How to Use the Rose Cafe
  - 
