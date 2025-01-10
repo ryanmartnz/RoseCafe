@@ -1,6 +1,6 @@
 # Rose Cafe
 
-### A full-stack e-commerce application for a cafe using the PERN stack
+## A full-stack e-commerce application for a cafe using the PERN stack
 
 Rose Cafe is a web application that allows users to place food and drink orders to the cafe.
 
