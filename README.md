@@ -17,16 +17,17 @@ The application backend was created usin Express.js, PostgreSQL, and Node.js.
 2. Install the server's dependencies
    
    ```npm install```
-3. Start the server
+3. Start the server. After this, the server should be running on http://localhost:3000
 
    ```node index```
+   
 4. In a seperate terminal, navigate to the client directory from the main directory
 
    ```cd client```
-5. Install the client's dependencies 
+6. Install the client's dependencies 
 
    ```npm install```
-6. Start the server
+7. Start the server. After this, the program should be accessible from a web browser on http://localhost:3001
 
    ```npm start```
 
