@@ -17,22 +17,19 @@ The application backend was created usin Express.js, PostgreSQL, and Node.js.
 2. Install the server's dependencies
    
    ```npm install```
-3. Start the server. After this, the server should be running on http://localhost:3000
+4. Edit the .env file in the server directory and change the PGPASSWORD variable to the password provided in my resume
+
+5. Edit the .env file again and change the MY_SECRET variable to a random string of your choosing. This will be used to sign the JSON web tokens in the application.
+
+6. Start the server. After this, the server should be running on http://localhost:3000
 
    ```node index```
-   
-4. In a seperate terminal, navigate to the client directory from the main directory
+7. In a seperate terminal, navigate to the client directory from the main directory
 
    ```cd client```
-6. Install the client's dependencies 
+8. Install the client's dependencies 
 
    ```npm install```
-7. Start the server. After this, the program should be accessible from a web browser on http://localhost:3001
+9. Start the server. After this, the program should be accessible from a web browser on http://localhost:3001
 
    ```npm start```
-
-## How to Use the Rose Cafe
- - 
-
-
-There were several challenges during the development of this application, including 
