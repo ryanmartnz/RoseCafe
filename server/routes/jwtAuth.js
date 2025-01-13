@@ -35,7 +35,10 @@ router.post("/register", validInfo, async (req, res) => {
         const token = jwtGenerator(newUser.rows[0].user_id);
 
         res.cookie("token", token, {
-            httpOnly: true
+            httpOnly: true,
+            sameSite: 'None',
+            secure: true,
+            domain: 'rose-cafe-website.onrender.com'
         });
 
         res.json({ success: true });
