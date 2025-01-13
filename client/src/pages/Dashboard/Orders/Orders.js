@@ -14,7 +14,7 @@ const Orders = ({ cartNumChange }) => {
     }
 
     const getUserOrders = useCallback(async () => {
-        const response = await fetch(`https://rosecafe.onrender.com/orders/${ordersType}`, {
+        const response = await fetch(`https://api.rosecafe.tech/orders/${ordersType}`, {
             method: "GET",
             credentials: "include"
         });

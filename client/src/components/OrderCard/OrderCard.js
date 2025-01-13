@@ -54,7 +54,7 @@ const OrderCard = ({ order, orderType }) => {
     };
 
     const cancelOrder = async () => {
-        const response = await fetch(`https://rosecafe.onrender.com/orders/cancel-order/${order.order_id}`, {
+        const response = await fetch(`https://api.rosecafe.tech/orders/cancel-order/${order.order_id}`, {
             method: "PUT",
             credentials: "include"
         });
@@ -77,7 +77,7 @@ const OrderCard = ({ order, orderType }) => {
     };
 
     const getOrderItems = useCallback(async () => {
-        const response = await fetch(`https://rosecafe.onrender.com/orders/${order.order_id}`, {
+        const response = await fetch(`https://api.rosecafe.tech/orders/${order.order_id}`, {
             method: "GET",
             credentials: "include"
         });

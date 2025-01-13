@@ -8,7 +8,7 @@ const Dashboard = ({ setAuth }) => {
 
     const getName = async () => {
         try {
-            const response = await fetch("https://rosecafe.onrender.com/dashboard/", {
+            const response = await fetch("https://api.rosecafe.tech/dashboard/", {
                 method: "GET",
                 credentials: "include"
             });

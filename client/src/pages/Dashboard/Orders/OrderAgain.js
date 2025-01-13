@@ -10,7 +10,7 @@ const OrderAgain = ({ cartNumChange }) => {
     const [orderedItems, setOrderedItems] = useState([]);
 
     const getOrderedItems = useCallback(async () => {
-        const response = await fetch(`https://rosecafe.onrender.com/orders/ordered-items`, {
+        const response = await fetch(`https://api.rosecafe.tech/orders/ordered-items`, {
             method: "GET",
             credentials: "include"
         });

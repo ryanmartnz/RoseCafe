@@ -10,7 +10,7 @@ const Navbar = ({ setAuth, numInCart }) => {
 
     const isAuth = async () => {
         try {
-        const response = await fetch("https://rosecafe.onrender.com/auth/is-verify", {
+        const response = await fetch("https://api.rosecafe.tech/auth/is-verify", {
             method: "GET",
             credentials: "include"
         });
@@ -24,7 +24,7 @@ const Navbar = ({ setAuth, numInCart }) => {
     const logout = async (e) => {
         e.preventDefault();
         try {
-            const response = await fetch("https://rosecafe.onrender.com/dashboard/logout", {
+            const response = await fetch("https://api.rosecafe.tech/dashboard/logout", {
                 method: "GET",
                 credentials: "include"
             });

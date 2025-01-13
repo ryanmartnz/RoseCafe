@@ -143,7 +143,7 @@ const Register = ({ setAuth }) => {
 
         try {
             const body = {first_name, last_name, email, phone, password};
-            const response = await fetch("https://rosecafe.onrender.com/auth/register", {
+            const response = await fetch("https://api.rosecafe.tech/auth/register", {
                 method: "POST",
                 headers: { "Content-Type": "application/json" },
                 body: JSON.stringify(body),
