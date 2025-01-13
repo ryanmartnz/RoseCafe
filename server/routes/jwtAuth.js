@@ -36,6 +36,7 @@ router.post("/register", validInfo, async (req, res) => {
 
         res.cookie("token", token, {
             httpOnly: true,
+            domain: 'rosecafe.onrender.com'
         });
 
         res.json({ success: true });
