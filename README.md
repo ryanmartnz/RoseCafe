@@ -4,7 +4,7 @@
 
 ## Project Overview
 
-The Rose Cafe is a full-stack e-commerce web application for a cafe using the PERN stack. Users are able to create an account, log in, place food and drink orders, and track the status of the previous orders. 
+The Rose Cafe is a full-stack e-commerce web application for a cafe using the PERN stack. Users are able to create an account, log in, place food and drink orders, and track the status of their previous orders. 
 
 The application frontend was created using JavaScript, React, and HTML/CSS. 
 
