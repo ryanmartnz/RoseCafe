@@ -41,7 +41,7 @@ const Footer = () => {
                     <li><a className="secondary-link" href="/#">Accessibility</a></li>
                     <li><a className="secondary-link" href="/#">Cookie Preferences</a></li>
                 </ul>
-                <div className="copyright-statement">&copy; {new Date().getFullYear()} Petal Reverie Coffee Company. All rights reserved.</div>
+                <div className="copyright-statement">&copy; {new Date().getFullYear()} Ryan Martinez & Petal Reverie Coffee Company. All rights reserved.</div>
             </div>
         </>
     );
