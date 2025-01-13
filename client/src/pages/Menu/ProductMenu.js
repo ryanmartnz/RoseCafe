@@ -28,7 +28,7 @@ const ProductMenu = ({ cartNumChange }) => {
 
 
     const getProducts = useCallback(async () => {
-        let fetchURL = 'http://localhost:3001/menu/';
+        let fetchURL = 'https://rosecafe.onrender.com/menu/';
 
         if(window.location.href.includes("drinks")) {
             fetchURL += `drinks/${productType}`;
