@@ -7,7 +7,7 @@ export const addToCart = async (productId, productName, productSize, cartNumChan
         "product_size": productSize, 
         "quantity": 1
     };
-    const response = await fetch(`http://localhost:3001/cart/add-to-cart`, {
+    const response = await fetch(`https://rosecafe.onrender.com/cart/add-to-cart`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(body),
@@ -41,7 +41,7 @@ export const removeFromCart = async (productId, productSize, cartNumChange) => {
         "product_size": productSize, 
         "quantity": 1
     };
-    const response = await fetch(`http://localhost:3001/cart/remove-from-cart`, {
+    const response = await fetch(`https://rosecafe.onrender.com/cart/remove-from-cart`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(body),
@@ -64,7 +64,7 @@ export const updateCartItemAmount = async (productId, productSize, newQuantity, 
         "product_size": productSize, 
         "quantity": newQuantity
     };
-    const response = await fetch(`http://localhost:3001/cart/update-quantity`, {
+    const response = await fetch(`https://rosecafe.onrender.com/cart/update-quantity`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(body),

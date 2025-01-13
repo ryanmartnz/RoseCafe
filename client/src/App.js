@@ -39,7 +39,7 @@ function App() {
 
   const isAuth = useCallback(async () => {
     try {
-      const response = await fetch("http://localhost:3001/auth/is-verify", {
+      const response = await fetch("https://rosecafe.onrender.com/auth/is-verify", {
         method: "GET",
         credentials: "include"
       });
@@ -65,7 +65,7 @@ function App() {
   const getNumInCart = useCallback(async () => {
     try {
       if(isAuthenticated) {
-        const response = await fetch(`http://localhost:3001/cart`, {
+        const response = await fetch(`https://rosecafe.onrender.com/cart`, {
             method: "GET",
             credentials: "include"
         });
