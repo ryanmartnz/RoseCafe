@@ -11,7 +11,7 @@ const Cart = ({ cartNumChange, cartSetNum }) => {
     const [cartTax, setCartTax] = useState("0.00");
 
     const getCartItems = async () => {
-        const response = await fetch(`http://localhost:3001/cart`, {
+        const response = await fetch(`https://rosecafe.onrender.com/cart`, {
             method: "GET",
             credentials: "include"
         });
@@ -22,7 +22,7 @@ const Cart = ({ cartNumChange, cartSetNum }) => {
     };
 
     const getCartTotal = async () => {
-        const response = await fetch(`http://localhost:3001/cart/total-price`, {
+        const response = await fetch(`https://rosecafe.onrender.com/cart/total-price`, {
             method: "GET",
             credentials: "include"
         });
@@ -34,7 +34,7 @@ const Cart = ({ cartNumChange, cartSetNum }) => {
     };
 
     const submitOrder = async () => {
-        const response = await fetch(`http://localhost:3001/cart/submit-order`, {
+        const response = await fetch(`https://rosecafe.onrender.com/cart/submit-order`, {
             method: "POST",
             credentials: "include"
         });
