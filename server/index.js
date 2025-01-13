@@ -6,7 +6,7 @@ const cookieParser = require("cookie-parser");
 // Middleware
 
 app.use(express.json()); // use req.body
-app.use(cors({ credentials: true, origin: "https://rose-cafe-website.onrender.com"} ));
+app.use(cors({ credentials: true, origin: "http://localhost:3000"} ));
 app.use(cookieParser());
 
 // Routes
