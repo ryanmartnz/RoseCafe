@@ -43,7 +43,7 @@ const Navbar = ({ setAuth, numInCart }) => {
     return (
         <NavbarBs className="bg-white mb-3 gutter-padding ">
             <Nav className="me-auto" style={{alignItems: "center"}}>
-                <img className="navbar-logo" alt="" src="../../rosecafe-removebg-preview.png"/>
+                <img className="navbar-logo" alt="" src="../../pinkrosecafe.png"/>
                 <Nav.Link className="navbar-link" to="/" as={NavLink}>Home</Nav.Link>
                 <Nav.Link className="navbar-link" to="/menu" as={NavLink}>Menu</Nav.Link>
                 <Nav.Link className="navbar-link" to="/about" as={NavLink}>About</Nav.Link>
