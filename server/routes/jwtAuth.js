@@ -28,14 +28,16 @@ router.post("/register", validInfo, async (req, res) => {
             "INSERT INTO users (user_first_name, user_last_name, user_email, user_phone, user_password) VALUES ($1, $2, $3, $4, $5) RETURNING *",
             [first_name, last_name, email, phone, bcryptPassword]
         );
-
         delete newUser.rows[0].user_password;
 
         // Generate the jwt token
         const token = jwtGenerator(newUser.rows[0].user_id);
 
-        res.cookie("token", token, {
-            httpOnly: true
+        const tokenName = `token:${newUser.rows[0].user_first_name}`
+        res.cookie(tokenName, token, {
+            httpOnly: true,
+            sameSite: 'strict',
+            maxAge: 1000 * 60 * 15,
         });
 
         res.json({ success: true });
@@ -70,7 +72,8 @@ router.post("/login", validInfo, async (req, res) => {
         // Generate the jwt token
         const token = jwtGenerator(user.rows[0].user_id);
         
-        res.cookie(`token=${user.rows[0].user_first_name}`, token, {
+        const tokenName = `token:${user.rows[0].user_first_name}`
+        res.cookie(tokenName, token, {
             httpOnly: true,
             sameSite: 'strict',
             maxAge: 1000 * 60 * 15,
