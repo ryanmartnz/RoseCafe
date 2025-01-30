@@ -70,7 +70,7 @@ router.post("/login", validInfo, async (req, res) => {
         // Generate the jwt token
         const token = jwtGenerator(user.rows[0].user_id);
         
-        res.cookie("token", token, {
+        res.cookie(`token=${user.rows[0].user_first_name}`, token, {
             httpOnly: true,
             sameSite: 'strict',
             maxAge: 1000 * 60 * 15,
