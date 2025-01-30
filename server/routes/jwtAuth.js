@@ -33,7 +33,7 @@ router.post("/register", validInfo, async (req, res) => {
         // Generate the jwt token
         const token = jwtGenerator(newUser.rows[0].user_id);
 
-        const tokenName = `token:${newUser.rows[0].user_first_name}`
+        const tokenName = `token=${newUser.rows[0].user_first_name}`
         res.cookie(tokenName, token, {
             httpOnly: true,
             sameSite: 'strict',
@@ -72,8 +72,7 @@ router.post("/login", validInfo, async (req, res) => {
         // Generate the jwt token
         const token = jwtGenerator(user.rows[0].user_id);
         
-        console.log(user.rows[0].user_first_name)
-        const tokenName = `token${user.rows[0].user_first_name}`
+        const tokenName = `token=${user.rows[0].user_first_name}`
         res.cookie(tokenName, token, {
             httpOnly: true,
             sameSite: 'strict',
